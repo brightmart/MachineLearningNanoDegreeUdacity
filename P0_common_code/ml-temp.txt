@@ -1,0 +1,5 @@
+1. visiual k-means:
+www.naftaliharris.com/blog/visualizing-k-means-clustering/
+
+2.ICA demo:
+http://research.ics.aalto.fi/ica/cocktail/cocktail_en.cgi

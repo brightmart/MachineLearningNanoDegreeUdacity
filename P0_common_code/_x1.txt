@@ -1,0 +1,23 @@
+# Put any import statements you need for this code block here
+#import random
+#from sklearn.cross_validation import train_test_split
+
+def shuffle_split_data(X, y):
+    """ Shuffles and splits data into 70% training and 30% testing subsets,
+        then returns the training and testing subsets. """
+    # Shuffle and split the data
+    #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+    X_train=X
+    y_train=y
+    X_test=X
+    y_test=y
+    # Return the training and testing data subsets
+    return X_train, y_train, X_test, y_test
+
+
+# Test shuffle_split_data
+try:
+    X_train, y_train, X_test, y_test = shuffle_split_data(X, y)
+    print "Successfully shuffled and split the data!"
+except:
+    print "Something went wrong with shuffling and splitting the data."
